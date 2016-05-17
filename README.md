@@ -12,11 +12,11 @@ then
 
 use curl
 ```
-    curl -o- https://raw.githubusercontent.com/CarrickPark/enlist/master/enlist.sh | bash
+    curl -o- https://raw.githubusercontent.com/CarrickPark/enlist/master/enlist.sh | bash /dev/stdin all
 ```
 or
 
 use wget
 ```
-    wget -qO- https://raw.githubusercontent.com/CarrickPark/enlist/master/enlist.sh | bash
+    wget -qO- https://raw.githubusercontent.com/CarrickPark/enlist/master/enlist.sh | bash /dev/stdin all
 ```
